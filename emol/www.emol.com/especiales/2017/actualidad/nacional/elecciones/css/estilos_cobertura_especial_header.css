@@ -1,0 +1,120 @@
+#especiales_header {
+	width: 100%;
+	float:left;
+	position:inherit;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 15px;
+	background-image: url(http://www.emol.com/especiales/2017/actualidad/nacional/elecciones/img/noticias-header.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#especiales_header img{
+	width: 100%;
+	float:left;
+	height:40px;
+	position:inherit;
+	border: 0px;
+
+}
+.especiales_header_img_escritorio{
+display:inherit;
+
+}
+
+#especiales_header ul{
+	width: 100%;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	height: 26px;
+	background-color: #082748;
+	display: inherit;
+	text-transform: uppercase;
+	border-top: 1px solid #84d1ed;
+}
+
+#especiales_header li{
+border-right: 1px solid #fff;
+float:left;
+font-size: 12px;
+height: 14px;
+line-height: 14px;
+margin-top: 6px;
+padding-left: 10px;
+padding-right: 10px;
+text-transform: uppercase;
+	list-style-type: none;
+	list-style-image: none;
+}
+#especiales-header li:first-child {
+display: none;
+}
+#especiales_header li:last-child{
+	border-right-width: 0px;
+
+}
+
+#especiales_header li a{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+	float: left;
+}
+
+#especiales_header li a:hover{
+	color: #81d5f1;
+}
+
+
+#menu-especial li.volver_a_emol {
+display:none;
+background-image:none;
+padding-left:0px;
+}
+
+
+@media (max-width: 1024px) {
+#especiales_header li{
+	font-size: 11px;
+}
+
+
+#especiales_header li a{
+
+	/* padding-right: 3px; */
+	
+
+	/* padding-left: 3px; */
+	float: left;
+}
+
+#menu-especial li.volver_a_emol {
+display:none;
+background-image:none;
+padding-left:0px;
+}
+
+
+@media (max-width: 768px) {
+
+#especiales_header li{
+	font-size: 11px;
+}
+
+
+#especiales_header li a{
+
+	padding-right: 3px;
+	padding-left: 3px;
+	float: left;
+}
+
+#menu-especial li.volver_a_emol {
+display:none;
+background-image:none;
+padding-left:0px;
+}
+
+}
